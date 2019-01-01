@@ -58,6 +58,8 @@ main {
     justify-content: center;
     align-items: center;
     width:100%;
+    padding-left: 2.5%;
+    padding-right:2.5%;
     min-height: 568px;
     flex-direction: column;
 }
@@ -317,7 +319,7 @@ code,pre {
     background-color: var(--snack);
     font-weight: bold;
     text-align: left;
-    font-family: Consolas, Roboto, Helvatic Neue;
+    font-family: Consolas, monospace , Roboto, Helvatic Neue;
 }
 
 code { color:#fff !important; }
